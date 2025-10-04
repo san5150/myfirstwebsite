@@ -1,0 +1,18 @@
+/* Base styles */
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+header { background: #3498db; padding: 10px; color: white; }
+nav a { color: white; margin: 0 10px; text-decoration: none; }
+
+/* Hero Section */
+#hero { padding: 50px; background: #ecf0f1; text-align: center; }
+#hero button { padding: 10px 20px; background: #3498db; color: white; border: none; cursor: pointer; }
+#hero button:hover { background: #2980b9; }
+
+/* Features Section */
+#features ul { list-style-type: square; }
+
+/* Responsive Navigation */
+@media(max-width:768px){
+  nav { display: flex; flex-direction: column; }
+  nav a { margin: 5px 0; }
+}
